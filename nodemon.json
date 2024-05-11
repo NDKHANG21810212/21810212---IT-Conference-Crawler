@@ -1,0 +1,5 @@
+{
+    "watch": ["controllers", "routers", "index.js"],
+    "ignore": ["data/*.json"]
+  }
+  

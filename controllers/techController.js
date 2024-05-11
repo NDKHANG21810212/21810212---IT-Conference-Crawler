@@ -1,14 +1,14 @@
 const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 const fs = require('fs');
-
+const path = require('path');
 async function crawlTechEvents() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto('https://dev.events/tech');
 
     // Số lần lặp để cuộn trang web
-    const numberOfScrolls = 1000;
+    const numberOfScrolls = 2000;
     const scrollSelector = 'div.row.columns.is-mobile:last-child';
  // Cuộn xuống dưới cùng của trang theo số lần lặp
     for (let i = 0; i < numberOfScrolls; i++) {
@@ -58,11 +58,16 @@ async function crawlTechEvents() {
         events.push(event);
     });
 
-    // Chuyển đổi mảng events thành chuỗi JSON và xuất ra file
-    const jsonData = JSON.stringify(events, null, 2);
-    fs.writeFileSync('./data/tech_events.json', jsonData);
-    console.log('Data has been saved to tech_events.json');
+    const existingData = fs.readFileSync('./data/tech_events.json', 'utf8');
+    const existingJson = JSON.parse(existingData);
+    const newJson = JSON.stringify(events, null, 2);
+    
+    if (JSON.stringify(existingJson) !== newJson) {
+        fs.writeFileSync('./data/tech_events.json', newJson, 'utf8');
+        console.log('Data has been saved to tech_events.json');
+    } else {
+        console.log('No changes in data, skipping file write');
+    }
 }
-
 // Gọi hàm crawl khi khởi chạy
-module.exports = crawlTechEvents();
+module.exports = crawlTechEvents;

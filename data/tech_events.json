@@ -1,15 +1,5 @@
 [
   {
-    "name": "Clean Architecture Masterclass",
-    "startDate": "2024-05-16T00:00:00.000+00:00",
-    "endDate": "2024-05-17T00:00:00.000+00:00",
-    "description": "Tech masterclass Online",
-    "url": "https://dev.events/conferences/clean-architecture-online-4-2023",
-    "title": "Clean Architecture Masterclass",
-    "subtitle": "Certification masterclass for experienced Java developers.",
-    "time": "May 16-17\n24"
-  },
-  {
     "name": "The Principal Dev – Masterclass for Tech Leads",
     "startDate": "2024-09-26T00:00:00.000+00:00",
     "endDate": "2024-09-27T00:00:00.000+00:00",
@@ -20,6 +10,16 @@
     "time": "Sep 26-27\n24"
   },
   {
+    "name": "Clean Architecture Masterclass",
+    "startDate": "2024-11-28T00:00:00.000+00:00",
+    "endDate": "2024-11-29T00:00:00.000+00:00",
+    "description": "Tech masterclass Online",
+    "url": "https://dev.events/conferences/clean-architecture-online-4-2023",
+    "title": "Clean Architecture Masterclass",
+    "subtitle": "Certification masterclass for experienced Java developers.",
+    "time": "Nov 28-29\n24"
+  },
+  {
     "name": "Clean Code Masterclass",
     "startDate": "2024-12-05T00:00:00.000+00:00",
     "endDate": "2024-12-06T00:00:00.000+00:00",
@@ -28,116 +28,6 @@
     "title": "Clean Code Masterclass",
     "subtitle": "Certification masterclass for experienced Java developers.",
     "time": "Dec 5-6\n24"
-  },
-  {
-    "name": "Asia VR and AR Summit",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-12T00:00:00.000+00:00",
-    "description": "Tech conference in Guangzhou, China",
-    "url": "https://dev.events/conferences/asia-vr-and-ar-summit-guangzhou-4-2024",
-    "title": "Asia VR and AR Summit",
-    "subtitle": "Tech\nconference\n\nin\nGuangzhou,\n\nChina",
-    "time": "May 10-12\n24"
-  },
-  {
-    "name": "Weblica 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech conference in Cakovec, Croatia",
-    "url": "https://dev.events/conferences/weblica-cakovec-4-2024",
-    "title": "Weblica 2024",
-    "subtitle": "Tech\nconference\n\nin\nCakovec,\n\nCroatia",
-    "time": "May 10\n24"
-  },
-  {
-    "name": "Drupal Iberia 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-11T00:00:00.000+00:00",
-    "description": "Tech conference in Evora, Portugal",
-    "url": "https://dev.events/conferences/drupal-iberia-2024-sdm9zqrd",
-    "title": "Drupal Iberia 2024",
-    "subtitle": "Tech\nconference\n\nin\nEvora,\n\nPortugal",
-    "time": "May 10-11\n24"
-  },
-  {
-    "name": "Make Your Data Speak",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech conference Online",
-    "url": "https://dev.events/conferences/make-your-data-speak-imepvtnz",
-    "title": "Make Your Data Speak",
-    "subtitle": "Tech\nconference\n\nOnline",
-    "time": "May 10\n24"
-  },
-  {
-    "name": "PHP Conference Kagawa",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-11T00:00:00.000+00:00",
-    "description": "Tech conference in Takamatsu, Japan",
-    "url": "https://dev.events/conferences/php-conference-kagawa-pjompav2",
-    "title": "PHP Conference Kagawa",
-    "subtitle": "Tech\nconference\n\nin\nTakamatsu,\n\nJapan",
-    "time": "May 10-11\n24"
-  },
-  {
-    "name": "Cryptocon 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-11T00:00:00.000+00:00",
-    "description": "Tech conference in New York, United States",
-    "url": "https://dev.events/conferences/cryptocon-2024-wutcvzgs",
-    "title": "Cryptocon 2024",
-    "subtitle": "Tech\nconference\n\nin\nNew York,\nNew York,\n\nUnited States",
-    "time": "May 10-11\n24"
-  },
-  {
-    "name": "cybersecurity focused TechSpot",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech conference in Warsaw, Poland",
-    "url": "https://dev.events/conferences/cybersecurity-focused-tech-spot-lip902fv",
-    "title": "cybersecurity focused TechSpot",
-    "subtitle": "Tech\nconference\n\nin\nWarsaw,\n\nPoland",
-    "time": "May 10\n24"
-  },
-  {
-    "name": "Developers Conference 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-11T00:00:00.000+00:00",
-    "description": "Tech conference in Nairobi, Kenya",
-    "url": "https://dev.events/conferences/developers-conference-2024-h0pglb4h",
-    "title": "Developers Conference 2024",
-    "subtitle": "Tech\nconference\n\nin\nNairobi,\n\nKenya",
-    "time": "May 10-11\n24"
-  },
-  {
-    "name": "CyberActive Conclave 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech conference in Ahmedabad, India",
-    "url": "https://dev.events/conferences/cyber-active-conclave-2024-3v7qrb83",
-    "title": "CyberActive Conclave 2024",
-    "subtitle": "Tech\nconference\n\nin\nAhmedabad,\n\nIndia",
-    "time": "May 10\n24"
-  },
-  {
-    "name": "DevOps Conf 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech conference in Rome, Italy",
-    "url": "https://dev.events/conferences/dev-ops-conf-2024-xjzbihfb",
-    "title": "DevOps Conf 2024",
-    "subtitle": "Tech\nconference\n\nin\nRome,\n\nItaly",
-    "time": "May 10\n24"
-  },
-  {
-    "name": "Beeloud and Build 2024",
-    "startDate": "2024-05-10T00:00:00.000+00:00",
-    "endDate": "2024-05-10T00:00:00.000+00:00",
-    "description": "Tech hackaton Online",
-    "url": "https://dev.events/conferences/beeloud-and-build-2024-kycznv6e",
-    "title": "Beeloud and Build 2024",
-    "subtitle": "Tech\nhackaton\n\nOnline",
-    "time": "May 10\n24"
   },
   {
     "name": "Java Day Istanbul",
@@ -300,11 +190,6 @@
     "time": "May 13\n24"
   },
   {
-    "title": "",
-    "subtitle": "",
-    "time": ""
-  },
-  {
     "name": "Software Design & Development Conference",
     "startDate": "2024-05-13T00:00:00.000+00:00",
     "endDate": "2024-05-17T00:00:00.000+00:00",
@@ -413,6 +298,11 @@
     "title": "MEWS World 2024",
     "subtitle": "Tech\nconference\n\nin\nMonaco,\n\nMonaco",
     "time": "May 14-17\n24"
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "time": ""
   },
   {
     "name": "Seamless Middle East",
@@ -605,11 +495,6 @@
     "time": "May 15\n24"
   },
   {
-    "title": "",
-    "subtitle": "",
-    "time": ""
-  },
-  {
     "name": "CONF3RENCE 2024",
     "startDate": "2024-05-15T00:00:00.000+00:00",
     "endDate": "2024-05-16T00:00:00.000+00:00",
@@ -718,6 +603,11 @@
     "title": "UXDX USA 2024 Online",
     "subtitle": "Tech\nconference\n\nOnline",
     "time": "May 15-17\n24"
+  },
+  {
+    "title": "",
+    "subtitle": "",
+    "time": ""
   },
   {
     "name": "Next Block Expo",
@@ -908,6 +798,116 @@
     "title": "DefCamp Cluj-Napoca",
     "subtitle": "Tech\nconference\n\nin\nCluj-Napoca,\n\nRomania",
     "time": "May 16-17\n24"
+  },
+  {
+    "name": "App Growth Summit Berlin 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-16T00:00:00.000+00:00",
+    "description": "Tech conference in Berlin, Germany",
+    "url": "https://dev.events/conferences/app-growth-summit-berlin-berlin-4-2024",
+    "title": "App Growth Summit Berlin 2024",
+    "subtitle": "Tech\nconference\n\nin\nBerlin,\n\nGermany",
+    "time": "May 16\n24"
+  },
+  {
+    "name": "Azure Bootcamp Switzerland 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-16T00:00:00.000+00:00",
+    "description": "Tech conference in Bern, Switzerland",
+    "url": "https://dev.events/conferences/azure-bootcamp-switzerland-2024-8-pz-yp0-fj",
+    "title": "Azure Bootcamp Switzerland 2024",
+    "subtitle": "Tech\nconference\n\nin\nBern,\n\nSwitzerland",
+    "time": "May 16\n24"
+  },
+  {
+    "name": "Directions ASIA 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-17T00:00:00.000+00:00",
+    "description": "Tech conference in Bangkok, Thailand",
+    "url": "https://dev.events/conferences/directions-asia-2024-gglan-l-g",
+    "title": "Directions ASIA 2024",
+    "subtitle": "Tech\nconference\n\nin\nBangkok,\n\nThailand",
+    "time": "May 16-17\n24"
+  },
+  {
+    "name": "Tech.eu Summit London 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-17T00:00:00.000+00:00",
+    "description": "Tech conference in London, United Kingdom",
+    "url": "https://dev.events/conferences/tech-eu-summit-london-2024-y04-cs3h-y",
+    "title": "Tech.eu Summit London 2024",
+    "subtitle": "Tech\nconference\n\nin\nLondon,\n\nUnited Kingdom",
+    "time": "May 16-17\n24"
+  },
+  {
+    "name": "Umbraad 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-16T00:00:00.000+00:00",
+    "description": "Tech conference Online",
+    "url": "https://dev.events/conferences/umbraad-2024-ptqgz2gt",
+    "title": "Umbraad 2024",
+    "subtitle": "Tech\nconference\n\nOnline",
+    "time": "May 16\n24"
+  },
+  {
+    "name": "Women Who Code CONNECT: Thrive in Tech",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-16T00:00:00.000+00:00",
+    "description": "Tech conference Online",
+    "url": "https://dev.events/conferences/women-who-code-connect-thrive-in-tech-a4o0gy2",
+    "title": "Women Who Code CONNECT: Thrive in Tech",
+    "subtitle": "Tech\nconference\n\nOnline",
+    "time": "May 16\n24"
+  },
+  {
+    "name": "TIL Conf",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-17T00:00:00.000+00:00",
+    "description": "Tech conference Online",
+    "url": "https://dev.events/conferences/til-conf-keb0gzdx",
+    "title": "TIL Conf",
+    "subtitle": "Tech\nconference\n\nOnline",
+    "time": "May 16-17\n24"
+  },
+  {
+    "name": "CodeCrafts 2024",
+    "startDate": "2024-05-16T00:00:00.000+00:00",
+    "endDate": "2024-05-16T00:00:00.000+00:00",
+    "description": "Tech conference in Vienna, Austria",
+    "url": "https://dev.events/conferences/code-crafts-2024-zzncbhga",
+    "title": "CodeCrafts 2024",
+    "subtitle": "Tech\nconference\n\nin\nVienna,\n\nAustria",
+    "time": "May 16\n24"
+  },
+  {
+    "name": "CzechDreamin 2024",
+    "startDate": "2024-05-17T00:00:00.000+00:00",
+    "endDate": "2024-05-17T00:00:00.000+00:00",
+    "description": "Tech conference in Prague, Czech Republic",
+    "url": "https://dev.events/conferences/czech-dreamin-prague-4-2024",
+    "title": "CzechDreamin 2024",
+    "subtitle": "Tech\nconference\n\nin\nPrague,\n\nCzech Republic",
+    "time": "May 17\n24"
+  },
+  {
+    "name": "DataGrillen 2024",
+    "startDate": "2024-05-17T00:00:00.000+00:00",
+    "endDate": "2024-05-18T00:00:00.000+00:00",
+    "description": "Tech conference in Lingen, Germany",
+    "url": "https://dev.events/conferences/data-grillen-lingen-4-2024",
+    "title": "DataGrillen 2024",
+    "subtitle": "Tech\nconference\n\nin\nLingen,\n\nGermany",
+    "time": "May 17-18\n24"
+  },
+  {
+    "name": "Greater Wisconsin Software Symposium",
+    "startDate": "2024-05-17T00:00:00.000+00:00",
+    "endDate": "2024-05-18T00:00:00.000+00:00",
+    "description": "Tech conference in Madison, United States",
+    "url": "https://dev.events/conferences/greater-wisconsin-software-symposium-madison-4-2024",
+    "title": "Greater Wisconsin Software Symposium",
+    "subtitle": "Tech\nconference\n\nin\nMadison,\nWisconsin,\n\nUnited States",
+    "time": "May 17-18\n24"
   },
   {
     "title": "",

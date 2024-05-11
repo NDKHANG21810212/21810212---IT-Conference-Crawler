@@ -30,15 +30,20 @@ async function convertConferenceData() {
         }));
 
         // Lưu dữ liệu mới vào file JSON
-        fs.writeFile('./data/API_data.json', JSON.stringify(newData, null, 4), (err) => {
-            if (err) throw err;
-            console.log('Chuyển đổi và lưu thành công!');
-        });
-    }catch (error) {
-   
-        console.error('Đã xảy ra lỗi:', error);
-    };
-}
+        const existingData = fs.readFileSync('./data/API_data.json', 'utf8');
+    const existingJson = JSON.parse(existingData);
+    const newJson = JSON.stringify(newData, null, 2);
+    
+    if (JSON.stringify(existingJson) !== newJson) {
+        fs.writeFileSync('./data/API_data.json', newJson, 'utf8');
+        console.log('Data has been saved to API_data.json');
+    } else {
+        console.log('No changes in data, skipping file write');
+    }
+    }
+    catch (error) {
+        console.error(error);
+    };}
 
 // Gọi hàm để thực thi quá trình chuyển đổi dữ liệu hội nghị
-module.exports = convertConferenceData();
+module.exports = convertConferenceData;

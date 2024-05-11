@@ -1,0 +1,54 @@
+/* CSS cho phần tử .event */
+.event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* CSS cho tiêu đề của sự kiện */
+.event h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* CSS cho các phần tử trong sự kiện */
+.event p {
+    margin: 5px 0;
+}
+
+/* CSS cho liên kết "More Info" */
+.event a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* CSS cho liên kết khi di chuột qua */
+.event a:hover {
+    text-decoration: underline;
+}
+
+/* CSS cho các trạng thái của sự kiện */
+.event-passed .status-tag {
+    background-color: red;
+}
+
+.event-now .status-tag {
+    background-color: blue;
+}
+
+.event-soon .status-tag {
+    background-color: rgb(249, 249, 152);
+   
+}
+
+/* CSS cho chữ màu trắng */
+.status-tag {
+   
+    padding: 3px 8px;
+    border-radius: 5px;
+    display: inline-block; 
+    margin-right: 5px;
+    font-weight: bold; /* In đậm */
+    font-size: larger;
+}
