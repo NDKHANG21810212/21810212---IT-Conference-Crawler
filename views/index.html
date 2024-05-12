@@ -7,20 +7,61 @@
     <title>Event Information</title>
 </head>
 <body>
-    <div id="searchContainer">
-        <!-- Ô tìm kiếm -->
-        <input type="text" id="searchInput" placeholder="Tìm kiếm...">
-        <!-- Nút reload -->
-        <button id="reloadButton">Tải lại</button>
-        <!-- Nút tìm kiếm -->
-        <button id="searchButton">Tìm kiếm</button>
+    <div>
+        <h1 style="text-align:left; color: brown; font-size: 60px; font-family:Verdana, Geneva, Tahoma, sans-serif;padding: 0 5em;" >IT Conferences Crawler </h1>
     </div>
-    
+    <div id="leftMenu">
+        <div id="searchContainer">
+           
+            <label for="searchInput">Nhập từ khóa tìm kiếm:</label>
+            <!-- Ô tìm kiếm -->
+            <input type="text" id="searchInput" placeholder="Tìm kiếm...">
+            <!-- Nút reload -->
+            <button id="reloadButton">Tải lại</button>
+            <!-- Nút tìm kiếm -->
+            <button id="searchButton">Tìm kiếm</button>
+        </div>
+        <hr>
+        <button class="menuOption" data-status="ongoing">Đang diễn ra</button>
+        <button class="menuOption" data-status="upcoming">Sắp diễn ra</button>
+        <button class="menuOption" data-status="completed">Đã diễn ra</button>
+        <hr>
+        <button class="menuFav" id="showFavoritesButton"> Yêu thích</button>
+        <button  class="menuFav" id="showAllButton">Hiển thị tất cả</button>
+        <hr>
+        <p style="text-align: center; font-weight: bold; font-size: large; color: brown;">NGUỒN DỮ LIỆU</p>
+       <hr>
+        <P class="dataSource">
+            <a href="https://dev.events/" >Dev events</a>
+            <a href="https://ccfddl.github.io/"  >CCF Rec. Conference Deadlines API</a>
+        </P>
+        <hr>
+        <p style="text-align: center;">
+            21810212-Nguyen Duy Khang 
+            <br>
+            IT Conferences Crawler
+        </p>
+    </div>
+ <div id="rightMenu">
+    <span id="clock" style="display: block; text-align: center; font-size: 20px;"></span>
+    <hr>
+    <h2 style="font-weight: bold; text-align: center; color: brown;">CÁC SỰ KIỆN ĐÃ XEM</h2>
+    <hr>
+    <ul id="eventList">
+        <!-- Danh sách các sự kiện(ongoing, upcoming, completed) sẽ được thêm ở đây -->
+    </ul>
+</div> 
+
     
     <div id="eventDetails">
-        <!-- Dữ liệu sẽ được thêm vào đây bằng JavaScript -->
+        <!-- Dữ liệu sẽ được thêm vào đây  -->
+     
     </div>
-    
+   
+    <div id="favoriteEvents">
+       <!-- Danh sách các sự kiện yêu thích sẽ được thêm vào đây -->
+    </div>
+   
     <script src="/js/script.js"></script>
 </body>
 </html>

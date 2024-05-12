@@ -1,8 +1,10 @@
+/*h1*/
+
 /* CSS cho phần tử .event */
 .event {
-    border: 1px solid #ccc;
+    border: 4px solid #ccc;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: #f9f9f9;
 }
 
@@ -41,14 +43,207 @@
     background-color: rgb(249, 249, 152);
    
 }
+.menuOption {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    text-align: center; 
+    background-color: #0c8eec; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-size: large;
+    font-weight: bold;
+}
 
-/* CSS cho chữ màu trắng */
+.menuOption:hover {
+    background-color: #0056b3; 
+}
+.menuFav {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px;
+    text-align: center; 
+    background-color: #0c8eec; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    font-size: large;
+    font-weight: bold;
+}
+
+.menuFav:hover {
+    background-color: #0056b3; 
+#searchButton,
+#reloadButton {
+    padding: 10px 20px; 
+    margin-top: 10px; 
+    margin: 6px;
+    background-color: #007bff;
+    color: #fff; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    text-align: center;
+}
+
+
+#searchButton:hover,
+#reloadButton:hover {
+    background-color: #0056b3; 
+}
+#searchInput {
+    width: 180px; 
+    padding: 10px; 
+    margin-top: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+#leftMenu {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 200px; 
+    height: 100%; 
+    background-color: #f0f0f0; 
+    padding: 20px; 
+}
+#rightMenu {
+    position: fixed;
+    height: 100%; 
+    top: 0;
+    right: 0;
+    width: 280px;
+    background-color: #f0f0f0; 
+    border-left: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#rightMenu h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+#rightMenu li {
+    text-align: center ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#eventList {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+#eventList li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#eventList li:last-child {
+    border-bottom: none; 
+}
+
+#viewedEventsList li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#eventDetails {
+    margin-left: 240px; 
+    margin-right: 320px;
+}
+
 .status-tag {
    
     padding: 3px 8px;
     border-radius: 5px;
     display: inline-block; 
     margin-right: 5px;
-    font-weight: bold; /* In đậm */
+    font-weight: bold; 
     font-size: larger;
+}
+.favorite-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff; 
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.favorite-button:hover {
+    background-color: #007bff; 
+    color: #fff; 
+}
+
+.favorite-button[data-event]:hover {
+    color: #000; 
+}
+
+.favorite-button:focus {
+    outline: none;
+}
+
+.favorite-button:active {
+    transform: translateY(1px); 
+}
+#clock {
+    font-size: 24px; /* Kích thước chữ */
+    font-family: Arial, sans-serif; /* Font chữ */
+    color: #333; /* Màu chữ */
+    background-color: #fff; /* Màu nền */
+    border: 1px solid #ccc; /* Viền */
+    border-radius: 5px; /* Bo tròn viền */
+    padding: 5px 10px; /* Khoảng cách bên trong */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Đổ bóng chữ */
+}
+.days-left {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: blue;
+}
+
+/* Màu chữ cho các trường hợp khác nhau */
+.days-left.Completed {
+    color: green !important;
+}
+
+.days-left.Today {
+    color: red !important;
+}
+
+.days-left.Tomorrow {
+    color: orange !important;
+}
+
+.days-left.DaysLeft {
+    color: blue !important;
+}
+.dataSource a {
+    color: blue; /* Màu chữ */
+    text-decoration: none; /* Gỡ bỏ gạch chân mặc định */
+    display: block; /* Hiển thị thẻ <a> như một khối để có thể điều chỉnh kích thước và đường viền */
+    margin-bottom: 5px; /* Khoảng cách giữa các liên kết */
+}
+
+/* Hiệu ứng hover */
+.dataSource a:hover {
+    color: darkblue; /* Màu chữ khi rê chuột qua */
+    text-decoration: underline; /* Gạch chân khi rê chuột qua */
 }

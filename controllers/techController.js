@@ -5,7 +5,7 @@ const path = require('path');
 async function crawlTechEvents() {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-    await page.goto('https://dev.events/tech');
+    await page.goto('https://dev.events/');
 
     // Số lần lặp để cuộn trang web
     const numberOfScrolls = 2000;

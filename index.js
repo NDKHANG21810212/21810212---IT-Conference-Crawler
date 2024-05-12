@@ -8,12 +8,12 @@ const convertConferenceData = require('./controllers/gitAPIController');
 const crawlTechEvents = require('./controllers/techController');
 const dataRouter = require('./routers/dataRouter');
 
-app.use(express.static('public')); // Phục vụ các file tĩnh từ thư mục 'public'
+app.use(express.static('public')); 
 // Đường dẫn đến file JSON
 const jsonFilePath = path.join(__dirname, 'data', 'combined_data.json');
 let hasMerged = false;
 
-// Sự kiện 'listening' được kích hoạt khi máy chủ bắt đầu lắng nghe các kết nối
+
 app.on('listening', async () => {
     if (!hasMerged) {
         try {
@@ -31,33 +31,25 @@ app.on('listening', async () => {
 
 // Route SSE để gửi dữ liệu mới tới client
 app.get('/data/stream', async (req, res) => {
-    // Code của bạn ở đây...
+   
 });
 
 app.use('/data', express.static(path.join(__dirname, 'data')));
-// Sử dụng router từ dataRouter.js
+
 app.use('/', dataRouter);
 
-async function automaticDataCrawl() {
-    // Gọi các hàm crawler
-   
+async function automaticDataCrawl() {  
     await convertConferenceData();
     await crawlTechEvents();
-    await mergeJsonData();
-    // In thông báo về việc crawl dữ liệu và thiết lập lại sau 24 tiếng
+     await mergeJsonData();
     console.log('Scheduled data crawling in 24 hours.');
-
-    // Thiết lập lại timeout cho lần tiếp theo sau 24 tiếng
-    setTimeout(automaticDataCrawl, 24 * 60 * 60 * 1000); // 24 tiếng = 24 * 60 * 60 * 1000 milliseconds
+    setTimeout(automaticDataCrawl, 24 * 60 * 60 * 1000); 
 }
-
-// Gọi hàm tự động để bắt đầu quá trình tự động crawl dữ liệu khi máy chủ khởi động
 automaticDataCrawl();
 
 // Khởi động máy chủ
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, async () => {
-    // Gọi các hàm từ controller để thực hiện các tác vụ khi máy chủ khởi động
     if (!hasMerged) {
         try {
             await crawlTechEvents();
