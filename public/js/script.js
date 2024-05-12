@@ -76,7 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Lắng nghe sự kiện click vào nút "Tải lại"
     document.getElementById('reloadButton').addEventListener('click', function() {
+        location.reload();
         fetchDataAndDisplayEvents(); // Gọi lại hàm để tải lại dữ liệu
+       
+
     });
 
     // Lắng nghe sự kiện click vào nút "Tìm kiếm"
