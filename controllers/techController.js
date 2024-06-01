@@ -8,7 +8,7 @@ async function crawlTechEvents() {
     await page.goto('https://dev.events/');
 
     // Số lần lặp để cuộn trang web
-    const numberOfScrolls = 2000;
+    const numberOfScrolls = 1000;
     const scrollSelector = 'div.row.columns.is-mobile:last-child';
  // Cuộn xuống dưới cùng của trang theo số lần lặp
     for (let i = 0; i < numberOfScrolls; i++) {
