@@ -50,18 +50,5 @@ automaticDataCrawl();
 // Khởi động máy chủ
 const PORT = process.env.PORT || 3000;
 const server = app.listen(PORT, async () => {
-    if (!hasMerged) {
-        try {
-            await crawlTechEvents();
-            await convertConferenceData();
-            await mergeJsonData();
-            
-           
-            console.log('Initial data processing completed successfully!');
-            hasMerged = true; // Đánh dấu đã merge dữ liệu một lần
-        } catch (error) {
-            console.error('Error occurred during initial data processing:', error);
-        }
-    }
     console.log(`Server is running on port ${PORT}`);
 });
